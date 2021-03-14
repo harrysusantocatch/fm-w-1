@@ -328,6 +328,10 @@ section {
   transition: 0.5s;
 }
 
+.fa-bars {
+  display: none !important;
+}
+
 .mobile-nav-toggle.fa-times {
   color: #fff;
 }
@@ -335,6 +339,9 @@ section {
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
+  }
+  .fa-bars {
+    display: block !important;
   }
   .navbar ul {
     display: none;
